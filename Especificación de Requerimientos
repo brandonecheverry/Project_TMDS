@@ -1,0 +1,135 @@
+Especificación de Requerimientos
+Descripción del Diseño
+
+
+
+
+
+
+MOBIFINANZAS
+
+
+
+
+
+
+SISTEMA DE ADMINISTRACION DE FINANZAS
+
+
+
+
+
+
+
+
+
+
+
+
+Apellidos, Nombres	Correo electrónico	Rol
+Angulo Echeverry Brandon	b.angulo@utp.edu.co	Programador
+Martinez Rios juan Manuel	Juan.martinez4@utp.edu.co	Diseñador y líder
+Muñoz Osorio Robinson	robinson.munoz@utp.edu.co	Programador
+		
+		
+
+
+
+Fecha de presentación: 03/06/2023
+
+Contenido
+
+1	INTRODUCCIÓN	3
+1.1	PROPÓSITO	3
+1.2	ALCANCE O ÁMBITO DEL SISTEMA	3
+1.3	DEFINICIONES, ACRÓNIMOS Y ABREVIATURAS	3
+1.3.1	Definiciones	3
+1.3.2	Acrónimos	3
+1.3.3	Abreviaturas	3
+1.3.4	Referencias	4
+1.4	PERSPECTIVA GENERAL DEL DOCUMENTO	4
+2	DESCRIPCIÓN GENERAL DE LA APLICACIÓN	4
+2.1	PERSPECTIVA DE LA APLICACIÓN	4
+2.2	FUNCIONES DE LA APLICACIÓN	4
+2.3	CARACTERÍSTICAS DE LOS USUARIOS	5
+2.4	RESTRICCIONES	5
+2.5	SUPOSICIONES Y DEPENDENCIAS	5
+2.6	REQUERIMIENTOS DIFERIDOS	5
+
+
+
+
+
+
+ 
+1	INTRODUCCIÓN
+Se llevará a cabo el desarrollo de una aplicación para llevar el control de las finanzas de las personas. Se va a tener disponible el Login para los usuarios con el fin de que cada usuario tenga un parámetro único de seguridad con el cual puede acceder a sus datos y poder llevar un historial de sus gastos, entradas y salidas de dinero. Va a tener la posibilidad de registrar sus entradas mensuales donde la página sumara saldo a su bolsa, va a poder registrar sus gastos los cuales restaran automáticamente a su saldo inicial y va a poder ingresar salidas de saldo por otros conceptos.
+
+Se realizara un planing de 3 etapas las cuales podemos definir como primer etapa, la definición de implementación y funcionamiento del proyecto, sobre que frameworks se van a utilizar para llevar a cabo el funcionamiento del FrontEnd con el BackEnd y definir el gestor de base de datos, como segunda etapa se procederá a la implementación de los frameworks y funcionalidades que se definieron en la primer etapa y en la tercera etapa se desarrollara el FrontEnd para hacer una plataforma amigable para el usuario final.
+
+
+1.1	Propósito
+El desarrollo de este proyecto se hace con el fin de ayudar a las personas a llevar un control sobre sus finanzas y evitar el mal gasto del dinero.
+
+
+1.2	Alcance o Ámbito del Sistema
+Esta aplicación tendrá como uso el tener un control en la economía y las finanzas del usuario, entidades empresariales u otras organizaciones, con el fin de que este tenga una mejor administración a la hora de usar sus ingresos en los diferentes ámbitos sociales como lo son la educación, salud, alimentación, vestimenta, seguros, lujos, transporte, vivienda, etc.
+
+
+Funciones:
+1. Contará con una opción de carrito de compras para que este le permita realizar cualquier tipo de compras en diferentes almacenes de cadena.
+2. Al ingresar a la página se encontrará con una interfaz cómoda y agradable a la vista, donde                                 visualizará    un apartado de registro o inicio de sesión.  El usuario contará con su propio perfil personal.
+ 3. En la parte de configuración nos encontraremos con: Cuenta, privacidad, seguridad, estadísticas, saldo, notificaciones, idioma, informar un problema, centro de ayuda, accesibilidad, términos y condiciones.
+4. Para la creación del perfil, el usuario deberá administrar la siguiente información: Documento de identidad, nombre y apellido, correo electrónico y la creación de una contraseña a la preferencia del usuario (Puede ser contraseña con caracteres alfabéticos y numéricos o puede ser un PIN)
+5. Para brindarle una mayor seguridad al usuario, se contará con la opción de “Verificación en dos pasos”.
+Funciones:
+
+
+
+
+
+
+
+
+1.3	Definiciones, Acrónimos y Abreviaturas
+1.3.1	Definiciones
+•	Mobi Finanzas: Aplicación para llevar un control sobre los ingresos de un usuario, que ofrece también diferentes herramientas como un carrito de compras.
+•	Login: es el proceso que controla el acceso individual a un sistema informático mediante la identificación del usuario utilizando credenciales provistas por el usuario. 
+•	Logearse: Se utiliza esta expresión cuando un usuario accede al sistema a travez de un inicio de sesión. 
+•	Prescripción: Cuando un profesional médico utilizará un producto biológico, químico o natural que modificará las funciones bioquímicas y biológicas del organismo de una persona con el objetivo de alcanzar un resultado terapéutico. 
+•	NIT: es un número único que sirve para identificar a cada uno de los contribuyentes en las diferentes cuestiones tributarias, cambiarias y aduaneras a las que están obligados. 
+•	Panel de Control: un panel de control es una herramienta que permite modificar diversos parámetros en la configuración de un software o de un hardware. 
+•	Backend: es la parte del desarrollo web que se encarga de que toda la lógica de una página web funcione, aplicación de escritorio o móvil. 
+•	Frontend: consiste en la conversión de datos en una interfaz gráfica para que el usuario pueda ver e interactuar con la información de forma digital.
+
+1.3.2	Acrónimos
+1.3.3	Abreviaturas
+Admi:  Administración
+APP: Aplicación
+1.3.4	Referencias
+
+1.4	Perspectiva General del Documento
+Este documento describe todo el proceso sobre cómo se desarrolló el aplicativo, con la explicación de cada una de sus funciones.
+
+2	DESCRIPCIÓN GENERAL DE LA APLICACIÓN
+2.1	Perspectiva de la Aplicación
+El producto es totalmente autónomo. Pero la mejor manera de aprovechar todas las funciones de la aplicación será con el uso del internet.
+2.2	Funciones de la Aplicación
+•	Registrar nuevos clientes
+•	Historial de los clientes
+•	Guardar y retirar dinero. 
+•	Ver el registro y cantidad de las finanzas.  
+•	Pagos electrónicos. 
+•	Pedidos realizados al distribuidor(es).
+•	Ver los objetivos y metas de la empresa.
+
+2.3	Características de los Usuarios
+Documento de identidad, nombre y apellido, correo electrónico, la creación de una contraseña a la preferencia del usuario, cantidad de capital.
+2.4	Restricciones
+•	El computador debe tener como mínimo 4 GB de memoria RAM, un disco interno ssd de 240GB y un procesador de una generación reciente con mínimo 2.0 GHz para el correcto funcionamiento del aplicativo.
+•	Debe tener conexión a internet para el correcto funcionamiento.
+2.5	Suposiciones y Dependencias
+Esta aplicación solo funcionara en sistemas operativos Windows 10 y 11. 
+2.6	Requerimientos Diferidos
+•	Tendrá una función de enviar al correo del cliente una verificación antes de que se vaya a realizar una acción como retiro o compra.
+•	Tendrá de una función de al finalizar el día y mes, se generará automáticamente en un formato pdf con la información total de los movimientos de sus finanzas. Además, el administrador tendrá un botón para que se lo genere en el momento deseado. 
