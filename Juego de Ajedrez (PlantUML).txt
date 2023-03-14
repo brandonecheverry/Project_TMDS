@@ -1,0 +1,71 @@
+@startuml
+class Pieza {
+    +color: Color
+    +posicion: Cuadro
+    +Mover(lugar: Cuadro): boolean
+    +noMover(): boolean
+    +getMover(): List<Cuadro>
+}
+
+class Peon {
+    +Mover(lugar: Cuadro): boolean
+}
+
+class Torre {
+    +Mover(lugar: Cuadro): boolean
+}
+
+class Caballo {
+    +Mover(lugar: Cuadrado): boolean
+}
+
+class Alfil {
+    +Mover(lugar: Cuadro): boolean
+}
+
+class Reina {
+    +Mover(lugar: Cuadro): boolean
+}
+
+class Rey {
+    +Mover(lugar: Cuadro): boolean
+}
+
+class Cuadro {
+    +fila: int
+    +columna: char
+}
+
+enum Color {
+    NEGRO
+    BLANCO
+}
+
+class Tablero {
+    +cuadros: Cuadro[8][8]
+    +piezas: Pieza[]
+    +getPiezaAt(cuadro: Cuadro): Pieza
+    +isReyInCheck(color: Color): boolean
+}
+
+class Jugador {
+    +color: Color
+    +piezas: Pieza[]
+    +makeMover(from: Cuadro, to: Cuadro): boolean
+}
+
+class Juego {
+    +tablero: Tablero
+    +jugadores: Jugador[]
+    +currentJugador: Jugador
+    +juego(): void
+}
+
+Pieza <|-- Peon
+Pieza <|-- Torre
+Pieza <|-- Caballo
+Pieza <|-- Alfil
+Pieza <|-- Reina
+Pieza <|-- Rey
+
+@enduml
